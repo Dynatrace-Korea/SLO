@@ -126,7 +126,7 @@ def createJsonObj():
 						"splitBy": [
 							"dt.entity.service"
 						],
-						"metricSelector": "builtin:service.requestCount.server:splitBy(\"dt.entity.service\")",
+						"metricSelector": "builtin:service.requestCount.server:splitBy(\\\"dt.entity.service\\\")",
 						"enabled": true
 					}
 				],
