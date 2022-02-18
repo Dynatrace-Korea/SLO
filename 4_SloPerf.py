@@ -73,9 +73,9 @@ metricName = arg.replace(" ", "-")
 
 # 매개변수에서 받은 서비스 이름을 JSON에 반영
 jsonObj = createJsonObj()
-jsonObj["name"] = arg + " 성능"
+jsonObj["name"] = "[<"+ rstCondition +"ms]" +arg + " 성능"
 jsonObj["filter"] = "type(\"SERVICE\"), mzName(\"" + arg + "\")"
-jsonObj["metricExpression"] = "(100)*((calc:service.slo_fast_" + metricName + "_requests:splitBy())/(builtin:service.requestCount.server:splitBy()))"
+jsonObj["metricExpression"] = "(100)*((calc:service.slo_fast_" + metricName + "_" + rstCondition + "_requests:splitBy())/(builtin:service.requestCount.server:splitBy()))"
 
 # 환경 파일의 설정을 JSON에 반영
 jsonObj["target"] = target
