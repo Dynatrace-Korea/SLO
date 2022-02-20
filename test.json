@@ -1,0 +1,97 @@
+"dashboardMetadata": {
+			"name": "SLO 현황2",
+			"shared": false,
+			"owner": "Dynatrace",
+			"preset": true
+		},
+		"tiles": [
+			{
+			  "name": "Back-end SLO",
+			  "tileType": "HEADER",
+			  "configured": true,
+			  "bounds": {
+				"top": 0,
+				"left": 0,
+				"width": 304,
+				"height": 38
+			  },
+			  "tileFilter": {}
+			},
+			{
+			  "name": "Markdown",
+			  "tileType": "MARKDOWN",
+			  "configured": true,
+			  "bounds": {
+				"top": 38,
+				"left": 1216,
+				"width": 304,
+				"height": 608
+			  },
+		  "tileFilter": {
+			"timeframe": "yesterday"
+		  },
+		  "markdown": "___\\\n## 🔍  Links\\\n***\\\n- [SLO](ui/slo)\\\n"
+		},
+		{
+		  "name": "성공율_SLO",
+		  "tileType": "SLO",
+		  "configured": true,
+		  "bounds": {
+			"top": 114,
+			"left": 0,
+			"width": 304,
+			"height": 114
+		  },
+		  "tileFilter": {
+			"timeframe": "-1d to -1m"
+		  },
+		  "assignedEntities": [
+			""
+		  ]
+		},
+		{
+		  "name": "성능_SLO",
+		  "tileType": "SLO",
+		  "configured": true,
+		  "bounds": {
+			"top": 228,
+			"left": 0,
+			"width": 304,
+			"height": 114
+		  },
+		  "tileFilter": {
+			"timeframe": "-1d to -1m"
+		  },
+		  "assignedEntities": [
+			""
+		  ]
+		},
+		{
+		  "name": "Markdown",
+		  "tileType": "MARKDOWN",
+		  "configured": true,
+		  "bounds": {
+			"top": 38,
+			"left": 0,
+			"width": 304,
+			"height": 76
+		  },
+		  "tileFilter": {
+			"timeframe": "-1d"
+		  },
+		  "markdown": "___\\\n🔍 [SLO](#dashboard;id=)\\\n___"
+		},
+		{
+		  "name": "Markdown",
+		  "tileType": "MARKDOWN",
+		  "configured": true,
+		  "bounds": {
+			"top": 0,
+			"left": 304,
+			"width": 1216,
+			"height": 38
+		  },
+		  "tileFilter": {},
+		  "markdown": "#### SLO 상세 분석을 하시려면 돋보기 🔍 옆에 있는 SLO 대상 이름을 클릭하세요."
+		}
+	  ]

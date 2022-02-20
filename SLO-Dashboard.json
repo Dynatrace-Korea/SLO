@@ -1,0 +1,737 @@
+{
+  "id": "6f000000-0000-0000-0000-000000000000",
+  "dashboardMetadata": {
+    "name": "SLO 현황",
+    "shared": true,
+    "owner": "Dynatrace",
+    "preset": true
+  },
+  "tiles": [
+    {
+      "name": "Back-end SLO",
+      "tileType": "HEADER",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 0,
+        "width": 304,
+        "height": 38
+      },
+      "tileFilter": {}
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 1520,
+        "width": 304,
+        "height": 608
+      },
+      "tileFilter": {
+        "timeframe": "yesterday"
+      },
+      "markdown": "___\n## 🔍  Links\n***\n- [성능 분석](#dashboard;gf=TOMODIFYWITHYOUROWNMANAGEMNETID;id=4cfe3347-8017-4861-9ef0-e40699556c41)\n\n- [SLO 현황 - Front-end](#dashboard;id=62940dda-4a6b-4d0b-aaeb-ee3bbc208f2b)\n\n- [SLO](ui/slo)\n"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 114,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "e591b390-4a2e-3079-a338-7f630554c9d5"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 114,
+        "left": 304,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-24h to now"
+      },
+      "assignedEntities": [
+        "e109ebcf-bea4-31d2-b038-4d26b7860c3d"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 114,
+        "left": 608,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-24h to now"
+      },
+      "assignedEntities": [
+        "6c6bbff7-dd13-37f1-a537-3919b553c259"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 304,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "0efb06fb-b837-3059-bc07-0cd9fd5aae47"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 608,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "78ef49f2-87ce-3a09-acdc-a0e636af3991"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "2b1099e5-1407-3a96-aa02-82719c778848"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 0,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-LI](#dashboard;id=17678a63-74b4-4dde-a6a9-e5da2854abde)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 304,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-PB](#dashboard;id=103c997a-0f5f-4892-a383-7b3932b7b508)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 608,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-RF](#dashboard;id=7510356f-d4b9-48ea-a14c-9a0f36b3bed7)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 912,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-AP](#dashboard;id=444cbb76-a05e-49dd-b825-3b3ded2146dc)\n___"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 114,
+        "left": 912,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "734db70c-ff35-3a45-85b1-ab79f6ff469e"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 38,
+        "left": 1216,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-AS](#dashboard;id=a3a5c145-6c9c-43a3-a2b2-01e4248bfa12)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 0,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-CI](#dashboard;id=eda29b83-e865-4806-8890-a978caf2fa94)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 304,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-ET](#dashboard;id=5287beb8-cfec-45ae-804f-72f76f4fff5d)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 608,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-FS](#dashboard;id=eda19bd5-a30d-47af-aefa-b9edcb00a2a6)\n___"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 114,
+        "left": 1216,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "fd39a9ff-1b3c-31a0-a91f-1fe8e06b6f5e"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 418,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "363e0045-2e8b-369f-85e8-a0c0798681eb"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 418,
+        "left": 304,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "d643c3a9-e8fc-3901-a8a2-3b735bdf3465"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 418,
+        "left": 608,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "16c24567-696f-326d-b167-511595326d77"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 912,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-HMP](#dashboard;id=ff02e4d4-9cf5-436a-9070-952528980dd7)\n___"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 418,
+        "left": 912,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "8d5a0000-1885-3945-b4b2-e2a94dc3cc70"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 342,
+        "left": 1216,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-PP](#dashboard;id=dabf37cc-f01c-4ed5-b7d8-5cae905639a3)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 646,
+        "left": 304,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-SS](#dashboard;id=53b76a17-14f3-455f-94f5-1860906421ba)\n___"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 646,
+        "left": 608,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-STA](#dashboard;id=fc860472-684d-4ede-98ad-96c528efd1cf)\n___"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 418,
+        "left": 1216,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "24962dd2-a0f2-31c0-adf9-21e559fd0932"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 722,
+        "left": 304,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "4d6abe06-9d9e-3e12-89ae-1e9abec1e14a"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 722,
+        "left": 608,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "83e436ac-0968-3afc-9836-39bc1aa05934"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 646,
+        "left": 912,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-VW](#dashboard;id=947ae5c9-431d-47a1-9656-72dababfba70)\n___"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 722,
+        "left": 912,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "6daaa572-7758-36b0-8d76-6aa2314bd262"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 722,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "5ca4585a-e5f9-3ac8-825e-5613083b0da1"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 646,
+        "left": 0,
+        "width": 304,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "markdown": "___\n🔍 [PRD MS-RP](#dashboard;id=d9d8c67b-54cf-4c11-b4c6-799910629238)\n___"
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 912,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "41c207b9-694d-3d9d-a278-7d7196a571af"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 1216,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "f44e378f-56b3-3f17-8c02-b5c18acecf3e"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 532,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "2b8b75d7-3660-3ca1-8e99-75189b455a0b"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 532,
+        "left": 304,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "bdf1951f-9815-349d-9938-1f39288d70d2"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 532,
+        "left": 608,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "8d0ea9ff-d267-32ad-bf70-3dc8967e7213"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 532,
+        "left": 912,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "1efcc065-1a1f-36d9-9bb3-1074d4fe73cc"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 532,
+        "left": 1216,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "984e1bbe-f017-325a-b1f3-076d3ffd2614"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 836,
+        "left": 0,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "fe4621f3-8c4b-3b01-83b2-15d8503bb052"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 836,
+        "left": 304,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "8482e074-11f3-3b73-bdbe-62e50d907b50"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 836,
+        "left": 608,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "0cdf242c-c585-3114-8276-8e75d57710cc"
+      ]
+    },
+    {
+      "name": "Auth services 성공율",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 836,
+        "left": 912,
+        "width": 304,
+        "height": 114
+      },
+      "tileFilter": {
+        "timeframe": "-1d"
+      },
+      "assignedEntities": [
+        "0fe802f6-fcf8-31c3-be75-cf4a0d92f1a9"
+      ]
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 304,
+        "width": 1216,
+        "height": 38
+      },
+      "tileFilter": {},
+      "markdown": "#### SLO 상세 분석을 하시려면 돋보기 🔍 옆에 있는 SLO 대상 이름을 클릭하세요."
+    }
+  ]
+}
